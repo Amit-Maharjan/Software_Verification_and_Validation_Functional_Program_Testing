@@ -1,0 +1,11 @@
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\bin\Debug\net8.0\BankAccountLib.deps.json
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\bin\Debug\net8.0\BankAccountLib.dll
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\bin\Debug\net8.0\BankAccountLib.pdb
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\BankAccountLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\BankAccountLib.AssemblyInfoInputs.cache
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\BankAccountLib.AssemblyInfo.cs
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\BankAccountLib.csproj.CoreCompileInputs.cache
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\BankAccountLib.dll
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\refint\BankAccountLib.dll
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\BankAccountLib.pdb
+C:\Users\MAHARJANA\Desktop\ETSU\3rd Semester\Software V&V\Functional Program Testing\BankingApplication\BankAccountLib\obj\Debug\net8.0\ref\BankAccountLib.dll
