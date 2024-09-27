@@ -492,4 +492,52 @@ public class BankAccountTesting
         Assert.Throws<InvalidOperationException>(
                     () => sut.TransferTo(_bankAccount, amount));
     }
+
+    [Test, Combinatorial]
+    public void CombinatorialTesting([Values(1000, 1)] decimal initialBalance,
+                                     [Values(10, 100, 500)] decimal depositAmount,
+                                     [Values(50, 100, 5)] decimal withdrawAmount)
+    {
+        var sut = new BankAccount("123456789", initialBalance);
+        sut.Deposit(depositAmount);
+        sut.Withdraw(withdrawAmount);
+
+        string actualStatus = sut.GetAccountStatus();
+        string expectedStatus;
+        decimal netBalance = initialBalance + depositAmount - withdrawAmount;
+
+        if (netBalance < 100)
+            expectedStatus = "Low";
+        else if (netBalance < 1000)
+            expectedStatus = "Normal";
+        else
+            expectedStatus = "High";
+
+        Assert.That(sut.Balance, Is.EqualTo(netBalance));
+        Assert.That(actualStatus, Is.EqualTo(expectedStatus));
+    }
+
+    [Test, Pairwise]
+    public void PairwiseTesting([Values(1000, 1)] decimal initialBalance,
+                                     [Values(10, 100, 500)] decimal depositAmount,
+                                     [Values(50, 100, 5)] decimal withdrawAmount)
+    {
+        var sut = new BankAccount("123456789", initialBalance);
+        sut.Deposit(depositAmount);
+        sut.Withdraw(withdrawAmount);
+
+        string actualStatus = sut.GetAccountStatus();
+        string expectedStatus;
+        decimal netBalance = initialBalance + depositAmount - withdrawAmount;
+
+        if (netBalance < 100)
+            expectedStatus = "Low";
+        else if (netBalance < 1000)
+            expectedStatus = "Normal";
+        else
+            expectedStatus = "High";
+
+        Assert.That(sut.Balance, Is.EqualTo(netBalance));
+        Assert.That(actualStatus, Is.EqualTo(expectedStatus));
+    }
 }
